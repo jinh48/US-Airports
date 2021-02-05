@@ -14,7 +14,7 @@ ________________________________________________________________________________
 
 ![!US Airports Map](img/preview.jpg)
 
-**Note:** This map does cover Alaska and Hawaii, please check the html file for interactive map. 
+**Note:** This map does cover Alaska and Hawaii, please run the html file (by github url path) for interactive map. 
 
 ## Brief Introduction:
 
