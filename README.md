@@ -1,4 +1,4 @@
-# US Airports Availability 
+# US Airports Availability (July 2012)
 
 ### This is an assignment for UW GEOG 458 - Lab 3: Web Map Application
 
@@ -32,4 +32,10 @@ This interactive map will display all the detail of airport location in the Unit
 
 ## Data Sources:
 
+* Small Scale Dataset Airports of the US - made by USGS
+* US states boundaries - made by Mike Bostock of D3
+* Basemap - made by Humanitarian OpenStreetMap Team
+
 ## Credits and Acknowledgment:
+
+This lab was made by UW professor, Bo Zhao, and his team, Humanistic GIS Laboratory. I want to thanks his team for putting the effort for this educational purpose by teaching us how to the fundamental coding with digital mapping. 
