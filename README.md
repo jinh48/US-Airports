@@ -38,4 +38,4 @@ This interactive map will display all the detail of airport location in the Unit
 
 ## Credits and Acknowledgment:
 
-This lab was made by UW professor, Bo Zhao, and his team, Humanistic GIS Laboratory. I want to thanks his team for putting the effort for this educational purpose by teaching us how to the fundamental coding with digital mapping. 
+This lab was made by UW professor, Bo Zhao, and his team, Humanistic GIS Laboratory. I want to thanks his team for putting the effort for this educational purpose by teaching us how to do fundamental coding with digital mapping. 
