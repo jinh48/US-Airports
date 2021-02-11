@@ -26,6 +26,15 @@ This interactive map will display all the detail of airport location in the Unit
 
 * **The display on the map -** I used the specific basemap as a colorful detailed terrain for those people who want to see the surrounding. The basemap include the road, river, green/forest lands that could help navigate to the airport. There is also the zoom control function (on the top-left) to see the detail in city-scale or to see the overall in world-scale. The home button is for to go back to the default display.  
 
+## Libraries:
+
+* Leaflet.css and Leaflet.js @1.7.1
+* Leaflet Ajax @2.1.0
+* Font Awesome @4.3.0
+* JQuery @3.1.0
+* Chroma.js @1.3.4
+* Google Fonts - Open Sans
+
 ## Data Sources:
 
 * Small Scale Dataset Airports of the US - made by USGS
