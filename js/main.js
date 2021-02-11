@@ -32,7 +32,7 @@ for (i = 0; i < 2; i++) {
 }
 
 // Get GeoJSON and put on it on the map when it loads
-airports= L.geoJson.ajax("Assets/airports.geojson", {
+airports= L.geoJson.ajax("assets/airports.geojson", {
   // assign a function to the onEachFeature parameter of the airport object.
   // Then each (point) feature will bind a popup window.
   // The content of the popup window is the value of `feature.properties.airport name`
@@ -79,7 +79,7 @@ function style(feature) {
 // Add county polygons
 // create counties variable, and assign null to it.
 var states = null;
-states = L.geoJson.ajax("Assets/us-states.geojson", {
+states = L.geoJson.ajax("assets/us-states.geojson", {
     style: style
 }).addTo(mymap);
 
