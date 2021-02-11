@@ -13,8 +13,7 @@ var mymap = L.map('map', {
     zoom: 4,
     maxZoom: 12,
     minZoom: 2,
-    detectRetina: true //, // detect whether the sceen is high resolution or not.
-    //zoomControl: false
+    detectRetina: true // detect whether the sceen is high resolution or not.
 });
 
 // Add a base map.
@@ -34,7 +33,7 @@ for (i = 0; i < 2; i++) {
 
 // Get GeoJSON and put on it on the map when it loads
 airports= L.geoJson.ajax("Assets/airports.geojson", {
-  // assign a function to the onEachFeature parameter of the cellTowers object.
+  // assign a function to the onEachFeature parameter of the airport object.
   // Then each (point) feature will bind a popup window.
   // The content of the popup window is the value of `feature.properties.airport name`
   onEachFeature: function (feature, layer) {
@@ -110,8 +109,3 @@ legend.addTo(mymap);
 
 // Add a scale bar to map
 L.control.scale({position: 'bottomleft'}).addTo(mymap);
-
-// Extra Credit
-// Add plugin that have the home button
-var zoomHome = L.Control.zoomHome();
-zoomHome.addTo(mymap);
