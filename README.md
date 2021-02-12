@@ -28,12 +28,13 @@ This interactive map will display all the detail of airport location in the Unit
 
 ## Libraries:
 
-* Leaflet.css and Leaflet.js @1.7.1
-* Leaflet Ajax @2.1.0
-* Font Awesome @4.3.0
-* JQuery @3.1.0
 * Chroma.js @1.3.4
+* Font Awesome @4.3.0
 * Google Fonts - Open Sans
+* JQuery @3.1.0
+* Leaflet Ajax @2.1.0
+* Leaflet.css and Leaflet.js @1.7.1
+* Leaflet Plug-in - PolylineMeasure (by [ppete2](https://github.com/ppete2/Leaflet.PolylineMeasure)) 
 
 ## Data Sources:
 
