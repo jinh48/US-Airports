@@ -109,3 +109,15 @@ legend.addTo(mymap);
 
 // Add a scale bar to map
 L.control.scale({position: 'bottomleft'}).addTo(mymap);
+
+// Extra credit:
+// Add measurement tool with certain options
+// Learn more option here: https://github.com/ppete2/Leaflet.PolylineMeasure 
+L.control.polylineMeasure({
+  position: 'topleft',
+  unit: 'metres',
+  showBearings: true,
+  clearMeasurementsOnStop: false,
+  showClearControl: true,
+  showUnitControl: true
+}).addTo(mymap);
