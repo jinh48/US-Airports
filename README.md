@@ -18,13 +18,15 @@ ________________________________________________________________________________
 
 ## Brief Introduction:
 
-This interactive map will display all the detail of airport location in the United States (including Alaska, Hawaii, and Puerto Rico). This map have two ways to tell the story: to see the individual aiports and to see the total airports on each state. The data (made by USGS) was collected by July 2012, and this is for the educational purpose of learning to integrate web application with digital geography topic.   
+This interactive map will display all the detail of airport locations in the United States (including Alaska, Hawaii, and Puerto Rico). This map has two ways to tell the story: to see the individual airports and to see the total airports in each state. The data (made by USGS) was collected by July 2012, and this is for the educational purpose of learning to integrate web application with digital geography topic.   
 
 ## Functions for this Map:
 
-* **How does this map tell stories -** One of them, you can check the individual airport (plane icon) up close on the colorful terrain map and can look up on thier name by clicking on them. You can also check if that specific airport have an air control tower or not based on the color and the legend. For the another one, you can look at each US state to see the total count of airports. You can check on the legend to the corresponding color to see the range and amount.
+* **How does this map tell stories -** One of them, you can check the individual airport (plane icon) up close on the colorful terrain map and can look upon their name by clicking on them. You can also check if that specific airport has an air control tower or not based on the color and the legend. For another one, you can look at each US state to see the total count of airports. You can check on the legend to the corresponding color to see the range and amount.
 
-* **The display on the map -** I used the specific basemap as a colorful detailed terrain for those people who want to see the surrounding. The basemap include the road, river, green/forest lands that could help navigate to the airport. There is also the zoom control function (on the top-left) to see the detail in city-scale or to see the overall in world-scale. The home button is for to go back to the default display.  
+* **The display on the map -** I used the specific base map as a colorfully detailed terrain for those people who want to see the surrounding. The base map includes the road, river, green/forest lands that could help navigate to the airport. There is also the zoom control function (on the top-left) to see the detail in city-scale or to see the overall world-scale.    
+
+* **Measurement toolset -** I added the Leaflet plug-in, "PloylineMeasure"; it is the measurement tool on the map. The purpose of adding it is to let the user be curious about how far away from a specific airport to the destination they want. The credit is from the link below the Libraries section. You can click the arrow-like icon to place any starting point and click the dot again to stop, and it will tell you the distance between two points. You can place as many multi-stop dots as you want. Use the "X" icon to clear everything. The last box below is for changing the distance units (here, I can provide in meters, miles, and nanometers). 
 
 ## Libraries:
 
@@ -44,4 +46,4 @@ This interactive map will display all the detail of airport location in the Unit
 
 ## Credits and Acknowledgment:
 
-This lab was made by UW professor, Bo Zhao, and his team, Humanistic GIS Laboratory. I want to thanks his team for putting the effort for this educational purpose by teaching us how to do fundamental coding with digital mapping. 
+This lab was made by UW professor, Bo Zhao, and his team, Humanistic GIS Laboratory. I want to thanks his team for putting in the effort for this educational purpose by teaching us how to do fundamental coding with digital mapping. 
